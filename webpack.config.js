@@ -28,7 +28,7 @@ module.exports = {
 
   module: {
     loaders: [
-      { test: /\.ts$/, loader: 'awesome-typescript-loader?library=es6' },
+      { test: /\.ts$/, loader: 'ts-loader' },
       { test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader') }
     ]
   }
